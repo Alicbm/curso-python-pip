@@ -1,4 +1,4 @@
-#Game Project
+# Game Project
 
 For run the game you must follow the following instructions in the terminal:
 
