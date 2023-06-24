@@ -1,0 +1,14 @@
+services:
+  #nombre del servicio
+  fast-api:
+    build:
+      # aqui le decimos la carpeta donde se creara el contexto
+      context: ./
+      #le decimos el archivo dokerfile que va a leer
+      dockerfile: Dockerfile
+    #Crea un live reloading
+    volumes:
+      - .:/app
+    ports:
+      - '80:80'
+    
